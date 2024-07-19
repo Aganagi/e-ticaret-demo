@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  user-select: none;
+}
+body {
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text-center {
+  text-align: center;
+}
+.drawer {
+  width: 500px;
+}
+.list-content {
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  width: 350px;
+}
+.list-image {
+  margin-right: 10px;
+}
+.list-title {
+  font-size: 1rem;
+}
+.list-price {
+  color: brown;
+  font-weight: bold;
+  margin-right: 8px;
+  font-size: 15px;
+}
+.del-btn {
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #b74f75;
+  text-transform: capitalize;
+}
+.list-amount {
+  padding: 10px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.list-amount > p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #b74f75;
+}
